@@ -1,13 +1,13 @@
 {
-  "name": "nativescript-google-maps-sdk",
-  "version": "3.0.2",
-  "description": "Google Maps SDK plugin for Nativescript",
+  "name": "@souriscloud/nativescript-google-maps-sdk",
+  "version": "3.0.3",
+  "description": "Google Maps SDK plugin for Nativescript - NS8 compatible",
   "main": "map-view",
   "typings": "map-view.d.ts",
   "nativescript": {
     "platforms": {
-      "android": "7.0.0",
-      "ios": "7.0.0"
+      "android": "8.0.0",
+      "ios": "8.0.0"
     }
   },
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dapriett/nativescript-google-maps-sdk.git"
+    "url": "git+ssh://git@github.com/souriscloud/nativescript-google-maps-sdk.git"
   },
   "keywords": [
     "Nativescript",
@@ -38,12 +38,12 @@
     "API",
     "SDK"
   ],
-  "author": "Dan Prietti <dprietti@gmail.com> (https://github.com/dapriett)",
+  "author": "Souris.CLOUD",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dapriett/nativescript-google-maps-sdk/issues"
+    "url": "https://github.com/souriscloud/nativescript-google-maps-sdk/issues"
   },
-  "homepage": "https://github.com/dapriett/nativescript-google-maps-sdk#readme",
+  "homepage": "https://github.com/souriscloud/nativescript-google-maps-sdk#readme",
   "devDependencies": {
     "@nativescript/core": "^7.0.12",
     "@nativescript/types": "^7.0.4",
@@ -63,27 +63,5 @@
     "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "eslint": "^7.5.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    },
-    "validate-commit-msg": {
-      "helpMessage": "\nPlease fix your commit message to match format.  For help, execute 'npm run cm'\n",
-      "types": [
-        "feat",
-        "fix",
-        "docs",
-        "style",
-        "refactor",
-        "perf",
-        "test",
-        "chore",
-        "revert",
-        "custom"
-      ],
-      "warnOnFail": false,
-      "autoFix": false
-    }
   }
 }

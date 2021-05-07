@@ -28,6 +28,8 @@ pack() {
     # compile package and copy files required by npm
     echo 'Building /src...'
     node_modules/.bin/tsc -p "$TO_SOURCE_DIR/tsconfig.json"
+    # apply workaround
+    cp workaround-ios.js "$TO_SOURCE_DIR"/map-view.ios.js
 
     echo 'Creating package...'
     # create package dir

@@ -29,7 +29,7 @@ Install the plugin using the NativeScript CLI tooling:
 ### Nativescript 7+
 
 ```
-tns plugin add nativescript-google-maps-sdk
+tns plugin add @souriscloud/nativescript-google-maps-sdk
 ```
 
 ### Nativescript < 7
